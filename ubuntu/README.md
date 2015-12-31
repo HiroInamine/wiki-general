@@ -30,8 +30,11 @@ mkdir <dir>
 rmdir <dir>
 mv <source> <dir>
 tar -[options] <zip> -C <dest>
+cp -R <source> <dest> copy recursive
 
 sudo passwd <username> (reset password)
+
+sudo echo "JAVA_HOME=/usr/lib/jvm/java-7-openjdk-i386/" >> /home/vagrant/.bashrc
 
 apt-get remove (uninstall but maintain config files)
 apt-get purge (all clean)
