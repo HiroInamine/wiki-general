@@ -34,17 +34,4 @@
 
     docker rm identity-server
 
----
 
-    ## CRIAR INSTANCIA DEV AMAZON UNEAR
-    * Selecionar ambiente:
-    	* Virginia (Ambiente Dev)
-    	* Sao paulo (ambiente demo)
-    1. Launch Instance
-    2. My AMIs e selecionar "base-ami-v2" instancia linux com docker   |  "base-windows-ami-v2" intancia windows
-    3. Tipo de instancia: t2.micro
-    4. configuraушes padrсo alterando apenas Network: dev-vpc
-    5. ajustar tamanho caso necessрrio
-    6. Definir name: {micro-serviуo}-{ambiente} .Ex: rule-engine-dev
-    7. Security Group:	front-end-sg
-    8. selecione uma key-pair existente no caso: dev-key-pair
