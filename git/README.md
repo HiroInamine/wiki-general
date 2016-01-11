@@ -11,6 +11,17 @@
 * `git branch -a -v` (view todas as branches localmente)
 * `git branch -vv` (lista branch locais e track do repositorio)
 * `git branch -a --list -v *develop`
+* `git branch -d <branchName>` - Remove a branch
+* `git branch --set-upstream-to <repository>/<branch>` - Associate local branch to a remote branch
+
+#### Remote
+* `git remote update [repository]` - Fetch updates of remotes in the repository
+* `git remote prune <repository>` - Remove remote-tracking branches already been removed from the remote repository
+
+
+#### Rebase
+* `git rebase <repository>/<branch>` - Forward local commits to the updated upstream head.
+
 
 #### Tags
 * `git tag -a <releaseName> -m "<description>"` (create)
