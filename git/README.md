@@ -8,8 +8,8 @@
 * `git branch --unset-upstream`
 
 #### Branches
-* `git branch -a -v` (view todas as branches localmente)
-* `git branch -vv` (lista branch locais e track do repositorio)
+* `git branch -a -v` (view all local branches)
+* `git branch -vv` (list local branch and remote repo track information)
 * `git branch -a --list -v *develop`
 
 #### Tags

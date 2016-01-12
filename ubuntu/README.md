@@ -9,6 +9,10 @@
 * `tar -[options] <zip>` (compacts / descompacts file)
 * `cp -R <source> <dest>` (copy recursive files)
 * `sudo passwd <username>` (force reset password)
+* `ls [options]` - list files
+  > ls -a -l
+* `ln [options] <target> [linkname]` - create a link
+  > ln -s /home/users/download/ downloadDir
 
 ### Advanced Packaging Tool (apt) commands
 * `apt-cache search <packagename>` (search package with packagename)
@@ -25,7 +29,7 @@
 * `sudo apt-get changelog <package>` (check changelog of package)
 * `sudo apt-get check` (checks for broken dependencies)
 * `sudo apt-get autoclean` (deletes all .deb files from /var/cache/apt/archives)
-* `dpkg --get-selections | grep <search>`  (find packages)
+* `dpkg --get-selections | grep <search>`  (find installed packages)
 
 ##### Install add-apt
     sudo apt-get install python-software-properties
@@ -46,3 +50,6 @@
     sudo update-alternatives --config java
     OR
     export JAVA_HOME=/usr/lib/jvm/<java-jdk>
+
+    sudo vi ~/.profile
+    export JAVA_HOME=<java_path>
