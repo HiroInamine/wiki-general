@@ -46,10 +46,6 @@
 ##### Install oracle jdk auto accept license
     echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 
-##### Define environment variable JAVA_HOME
-    sudo update-alternatives --config java
-    OR
-    export JAVA_HOME=/usr/lib/jvm/<java-jdk>
-
-    sudo vi ~/.profile
-    export JAVA_HOME=<java_path>
+##### Define user variables
+  `echo "export PATH=$PATH:/home/me/play" >> ~/.profile` - E.g play path to PATH variable
+  `. ~/.profile` - To immediately reflect changes 
