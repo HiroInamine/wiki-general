@@ -8,26 +8,26 @@
 Vagrant.configure(2) do |config|
 
 	config.vm.box = "ubuntu/trusty64"
-	
-	config.vm.provision :shell, path: "bootstrap.sh"  
-	
+
+	config.vm.provision :shell, path: "bootstrap.sh"
+
 	config.vm.provider "virtualbox" do |vb|
-		# Display the VirtualBox GUI when booting the machine     
+		# Display the VirtualBox GUI when booting the machine
 		vb.gui = false
 		# vb.name = "vb-ubuntu-gui"
 		vb.memory = "2048"
 		vb.cpus = "2"
 		vb.customize ["modifyvm", :id, "--vram", "64"]
 	end
-	
-    
+
+
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  
+
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -38,6 +38,7 @@ Vagrant.configure(2) do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # config.vm.network "forwarded_port", guest: 80, host: 8080
+	config.vm.network "forwarded_port", guest: 9000, host: 9000
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -69,8 +70,8 @@ Vagrant.configure(2) do |config|
   # View the documentation for the provider you are using for more
   # information on available options.
 
-  
-  
+
+
   # Define a Vagrant Push strategy for pushing to Atlas. Other push strategies
   # such as FTP and Heroku are also available. See the documentation at
   # https://docs.vagrantup.com/v2/push/atlas.html for more information.
@@ -85,6 +86,6 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
-  
-  
+
+
 end

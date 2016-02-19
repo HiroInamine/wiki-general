@@ -13,6 +13,7 @@
   > ls -a -l
 * `ln [options] <target> [linkname]` - create a link
   > ln -s /home/users/download/ downloadDir
+* `df -h` - show disk usage
 
 ### Advanced Packaging Tool (apt) commands
 * `apt-cache search <packagename>` (search package with packagename)
@@ -48,4 +49,4 @@
 
 ##### Define user variables
   `echo "export PATH=$PATH:/home/me/play" >> ~/.profile` - E.g play path to PATH variable
-  `. ~/.profile` - To immediately reflect changes 
+  `. ~/.profile` - To immediately reflect changes

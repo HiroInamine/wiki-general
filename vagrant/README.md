@@ -19,7 +19,7 @@
 
     Best practices - Clean vagrant machine before generate box
     Remove APT cache: sudo apt-get clean
-    Compact space:  sudo dd if=/dev/zero of=/EMPTY bs=1M && sudo rm -f /EMPTY
+    Compact space:  sudo dd if=/dev/zero of=/EMPTY bs=1M && sudo rm -f /EMPTY (just if create a base box)
     Clear bash history: cat /dev/null > ~/.bash_history && history -c
 
 After setup your vagrant machine:
