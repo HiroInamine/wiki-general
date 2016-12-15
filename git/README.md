@@ -8,11 +8,15 @@
 * `git branch --unset-upstream`
 
 #### Branches
+* `git checkout -` switches to the last branch
 * `git branch -a -v` (view all local branches)
 * `git branch -vv` (list local branch and remote repo track information)
 * `git branch -a --list -v *develop`
 * `git branch -d <branchName>` - Remove a branch
 * `git branch --set-upstream-to <repository>/<branch>` - Associate local branch to a remote branch
+
+#### Commit
+* `git cherry-pick <commit_hash>` applies the given commit from any other branch to the current one
 
 #### Remote
 * `git remote update [repository]` - Fetch updates of remotes in the repository
