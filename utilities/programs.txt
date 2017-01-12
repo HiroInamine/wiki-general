@@ -1,0 +1,45 @@
+# Preparação ambiente Windows
+---
+
+## Utilitarios:
+- `squirrel` interface para acesso a bases diversas (incluindo h2)
+- `heidi` ide para acesso a bases de dados
+- `soap-ui`
+- `spawner` ferramenta gerar arquivo grandes
+- `flyway` migration
+- `processExplorer` visao mais detalhada dos processos
+- `sqlFormatter` formatador para sql server studio
+- `ExpressProfiler` profiler para sql
+- `pentaho` ferramenta de BI
+- `winscp`
+- `winmerge` diff de arquivo
+- `putty`
+
+## Ferramentas para desenvolvimento:
+- `git`
+- `intellij`
+- `atom`
+- `activator`
+- `docker`
+- `vagrant`
+- `virtualbox`
+- `jmeter` 
+	> instalar lib a parte jms e rabbitmq
+- `apache proxy reverse`
+
+
+Linux Tools folder
+- `activator` scala build tools
+- `apache-jmeter` stress tool
+- `camunda` workflow
+- `dbeaver` sql client
+- `drools` business rule
+- `dynamo` nosql db amazon
+- `flyway` migration from sql
+- `intellij` ide
+- `kettle` etl
+- `puppet` 
+- `shortcuts` programs
+- `vagrant`
+
+
