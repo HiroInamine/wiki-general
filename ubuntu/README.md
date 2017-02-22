@@ -14,7 +14,8 @@
 * `ln [options] <target> [linkname]` - create a link
   > ln -s /home/users/download/ downloadDir
 * `df -h` - show disk usage
-
+* `man [program]` - display linux manual page
+ 
 ### Advanced Packaging Tool (apt) commands
 * `apt-cache search <packagename>` (search package with packagename)
 * `apt-cache show <packagename>` (show information of package)
