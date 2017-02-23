@@ -15,6 +15,8 @@
   > ln -s /home/users/download/ downloadDir
 * `df -h` - show disk usage
 * `man [program]` - display linux manual page
+* `([process] &)`- keep running process after ending ssh session
+
  
 ### Advanced Packaging Tool (apt) commands
 * `apt-cache search <packagename>` (search package with packagename)
